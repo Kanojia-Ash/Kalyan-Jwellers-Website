@@ -1,0 +1,275 @@
+*{
+    margin: 0px;
+    padding: 0px;
+font-family: "Lato", sans-serif;;
+}
+.headerSec{
+height: 170px;
+background-color: rgb(255, 255, 255);
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+}
+.nav a{
+    color: #777171;
+    text-decoration: none;
+    margin:20px;   
+    font-weight: 700;
+}
+.nav a:hover{
+    color: #E30613;
+    text-decoration: underline;
+}
+.nav1 a{
+    color: #777171;
+    text-decoration: none;
+    margin:20px;  
+    font-weight: 700; 
+}
+.nav1 a:hover{
+    color: #E30613;
+    text-decoration: underline;
+}
+
+.mlogo{
+    
+    height: 150px;
+    width: 130px;  
+}
+
+/* banner */
+.banner{
+background-image: url(images/banner.webp);
+height: 280px;
+width: 100%;
+background-size: cover;
+background-position: center;
+}
+
+.ban1 h1{
+font-size: 45px;
+font-weight: 400;
+color : #ffffff;
+display: flex;
+justify-content: center;
+padding-top: 70px;
+}
+.bor{
+    border: 0.1px solid #cccccc;
+    width: 280px;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 520px;
+    border-width:thin;
+}
+
+.p1{
+   display: flex;
+   justify-content: center;
+   color: white; 
+   margin-top : 20px;
+}
+.p2{
+    display: flex;
+    justify-content: center;
+    color: white; 
+    margin-top: 5px;
+ }
+ .p3{
+        display: flex;
+        justify-content: center;
+        color: white;
+        margin-top: 5px;   
+ }
+ .big{
+    
+    background-color: rgb(253, 236, 242);
+    height: 1500px;
+    
+ }
+ .Cpara p{
+    display: flex;
+    justify-content: center;
+    font-size: 33px;
+    font-family: "Lato", sans-serif;
+    padding-top: 100px;
+    color: #242330;
+ }
+ .Cpar{
+    display: flex;
+    justify-content: center;
+    font-size: 33px;
+    font-family: "Lato", sans-serif;
+    padding-top: 50px;
+    color: #242330;
+ }
+ .boxx{
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+
+ }
+ .booxx {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  
+ }
+ 
+
+.box1{
+    height: 480px;
+    
+    width: 100%;
+    background-image: url(images/C1.webp);
+    background-size: cover;
+    border-radius: 4px;
+}
+.box2{
+  
+   height: 230px; 
+   width: 500px;
+   background-image: url(images/C2.webp);
+   background-size: cover;
+   border-radius: 4px;
+}
+.box3{
+   
+    margin-top: 13px;
+    height: 230px; 
+    width: 500px;
+    background-image: url(images/C3.webp);
+    background-size: cover;
+    border-radius: 4px;
+   
+}
+.cont{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box{
+    height: 150px;
+     width: 150px;
+     transition: 1s;
+ 
+}
+.box:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.box p{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.box p:hover{
+    color: #E30613;
+}
+.set{
+    padding-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+.trands{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+}
+
+.boxz{
+    height: 320px ;
+    width: 270px;
+   margin-top:150px;
+   transition: 1s;
+}
+.boxz:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.boxz1{
+    background-image: url(images/T1.webp);
+    background-size: cover;
+    border-radius: 4px;
+}
+.boxz2{
+    background-image: url(images/T2.webp);
+    background-size: cover;
+    border-radius: 4px;
+}
+.boxz3{
+    background-image: url(images/T3.webp);
+    background-size: cover;
+    border-radius: 4px;
+}
+.boxz4{
+    background-image: url(images/T4.webp);
+    background-size: cover;
+    border-radius: 4px;
+}
+.boxz5{
+    background-image: url(images/T5.webp);
+    background-size: cover;
+    border-radius: 4px;
+    
+}
+.bord{
+margin-top: 100px;
+    border:  1px solid rgb(255, 0, 0);
+}
+
+
+/* footer */
+
+.Mfoot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E7E6E2;
+    height: 100px;
+}
+.parag{
+    background-color: #ffffff;
+    padding: 10px 15px 10px 15px;
+    margin: 4px;
+}
+.parag p{
+    font-size:  14px;
+    color: #423c3c;
+    font-family: "Lato", sans-serif;
+
+}
+
+.emu{
+border: none;
+height: 35px;
+padding-left: 5px;
+}
+.adj{
+    background-color: #E30613;
+    color: #ffffff;
+    height: 35px;
+    width: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.end
+{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    color: #A8A7AA;
+    font-size: 12px;
+}
